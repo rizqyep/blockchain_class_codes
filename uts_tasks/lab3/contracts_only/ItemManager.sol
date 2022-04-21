@@ -1,6 +1,7 @@
-pragma solidity ^0.6.0;
-import "./Item.sol";
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.0 <0.9.0;
 import "./Ownable.sol";
+import "./Item.sol";
 
 contract ItemManager is Ownable {
     struct S_Item {
