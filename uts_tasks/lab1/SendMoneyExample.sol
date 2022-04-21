@@ -1,6 +1,6 @@
 pragma solidity ^0.8.1;
 
-contract SendMoneyExample is Ownable {
+contract SendMoneyExample {
     uint256 public balanceReceived;
     address public owner;
 
